@@ -16,7 +16,7 @@ resource "google_compute_firewall" "deny_all_egress" {
     }
   }
 
-  deny {
+  allow {
     protocol = "all"
   }
 
